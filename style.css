@@ -12,10 +12,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(https://t4.ftcdn.net/jpg/05/52/47/31/360_F_552473151_gaBefjYdGK1SNYkQtIfo3HYiXTtj900W.jpg);
+	background-image: url(https://4kwallpapers.com/images/wallpapers/valley-landscape-aesthetic-mountains-gradient-background-2560x1080-4589.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 }
 .container{
 	height: 350px;
@@ -28,19 +28,48 @@
 }
 .heading{
 	color: darkblue;
-	font-family: Castellar;
-	font-size: 15px;
-	text-align: center;
-	margin-bottom: 15px;
+	font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
 }
 input[type="text"]{
 	height: 30px;
-	width: 180px;
+	width: 190px;
 	padding-left: 10px;
 	outline: none;
 	font-weight: bolder;
 	text-transform: uppercase;
 }
 .srch_btn{
-	border
+	border: none;
+	background-color: transparent;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.component{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.btn{
+	margin-top: -2px;
+	margin-left: 10px;
+}
+#city{
+	color: darkblue;
+	font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.measurement{
+	font-family: "Bebas Neue";
+	font-weight: bolder;
+}
+.headings{
+	color: darkblue;
+	font-family: "Bebas Neue";
+	font-size: 18px;
 }
